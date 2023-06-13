@@ -6,12 +6,11 @@
 
 struct Student
 {
-    int roll_no, roll_noDaSua;
+    int roll_no;
     char name[30];
-    char nameDaSua[30];
-    int class, classDasua;
-    char section, sectionDasua;
-    float marks, marksDasua;
+    int class;
+    char section;
+    float marks;
 }   student[100];
 
 void studentInfor(int i, int n);
